@@ -1,0 +1,19 @@
+[project]
+name = "netpulse-campus-backend"
+version = "0.1.0"
+description = "FastAPI backend for NetPulse Campus network monitoring platform"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.23.1",
+    "sqlmodel>=0.0.8",
+    "asyncpg>=0.28.0",
+    "redis>=5.0.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.10.0",
+    "ping3>=4.0.0",
+    "psutil>=5.0.0"
+]
+
+[tool.black]
+line-length = 88

@@ -1,0 +1,17 @@
+.venv/
+backend/.venv/
+frontend/node_modules/
+frontend/build/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.DS_Store
+Thumbs.db
